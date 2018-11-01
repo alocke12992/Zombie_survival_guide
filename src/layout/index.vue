@@ -3,15 +3,18 @@
   <div class="app-layout">
     <div v-if="this.$route.path !== '/'">
       <Navbar />
+      <AppContent/>
     </div>
-    <AppContent/>
+    <div v-else>
+      <Hero />
+    </div>
   </div>
 </template>
 
 <script lang="ts">
 import AppContent from './AppContent.vue'
 import Navbar from '../components/Navbar.vue'
-
+import Hero from '../views/Hero.vue'
 export default {
   name: 'appLayout',
   data: function() {
@@ -21,16 +24,9 @@ export default {
   },
   components: {
     AppContent,
-    Navbar
+    Navbar,
+    Hero
   },
-  created: function () {
-    console.log(this.$route)
-  },
-  watch:{
-    $route (to, from){
-      console.log(this.$route)
-    }
-  } 
 }
 </script>
 

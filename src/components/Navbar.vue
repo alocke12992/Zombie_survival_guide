@@ -20,7 +20,7 @@ export default {
         {
           id: 0,
           text: 'Home',
-          page:'/'
+          page:'/home'
         },
         {
           id: 1,
@@ -31,6 +31,11 @@ export default {
           id: 2,
           text: 'Guide',
           page: '/guide'
+        },
+        {
+          id: 3,
+          text: 'Bugout Bag',
+          page: '/bugoutBag'
         }
       ]
     }

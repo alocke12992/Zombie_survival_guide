@@ -8,7 +8,7 @@
         <div class="post-control" id="next-post" @click="nextPost()"><v-icon name="chevron-right"></v-icon></div>
         <div class="post-control" id="prev-post" @click="prevPost()"><v-icon name="chevron-left"></v-icon></div>
       </div>
-      <h2 class="post-view__title">{{currentPost.page}}</h2>
+      <h2 class="post-view__title">{{currentPost.title}}</h2>
       <div class="post-view__content" v-html="currentPost.content"></div>
     </div>
   </div>
@@ -31,15 +31,15 @@ export default {
   },
   data: function() {
     return {
-      posts: data,
+      posts: data.pages,
       routes: [],
       currentRouteId: 0,
-      currentPost: data[0],
+      currentPost: data.pages[0],
       postIndex: 0,
       selected: true,
       ready: true,
       lastSelectedPost: 0,
-      clipPath: data[0].clip_path
+      clipPath: data.pages[0].clip_path
     }
   },
   methods: {
@@ -101,14 +101,7 @@ export default {
 }
 </script>
 
-<style>
-  * {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Inconsolata", monospace;
-}
+<style scoped>
 
 .post {
   cursor: pointer;
