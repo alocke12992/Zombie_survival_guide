@@ -1,5 +1,7 @@
 <template>
-  
+  <div>
+    Shtf Bag
+  </div>
 </template>
 
 <script>

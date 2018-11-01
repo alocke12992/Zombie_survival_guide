@@ -71,7 +71,86 @@ const data =
       id: 5,
       link: 'https://www.amazon.com/Large-Street-Road-Lawrence-Kansas/dp/B002UM80LW'
     },
-
+  ],
+  items: [
+    {
+      id: 1, 
+      title: 'First Aid Kit',
+      description: 'Various sizes and types of bandages, disinfectant, medical tape, Ibuprofen',
+      image: ''
+    },
+    {
+      id: 2, 
+      title: 'A Small Tent',
+      description: 'This will provide a temporary shelter while you search for a more permanent solution',
+      image: ''
+    },
+    {
+      id: 3, 
+      title: 'Water',
+      description: 'Have 1-2 gallons to help keep you and your crew hydrated until you can find a sustainable source of water',
+      image: ''
+    },
+    {
+      id: 4, 
+      title: 'Nutrition Packs',
+      description: 'Have non perishable foods such as canned fruits and vegetables to help sustain you until you have a strong and secure base',
+      image: ''
+    },
+    {
+      id: 5, 
+      title: 'Vegetable Seeds',
+      description: 'Save these until you have a secure base so you can plant a garden and continually have food, Various Peppers, Black Beans, Squash, Lettuce, Tomatoes, Potatoes',
+      image: ''
+    },
+    {
+      id: 6, 
+      title: 'Melee Weapons',
+      description: 'These are a great way of quietly killing zombies and defending yourself from other predators, Bat or knife',
+      image: ''
+    },
+    {
+      id: 7, 
+      title: 'Emergency Blanket',
+      description: 'Great way to keep yourself warm at night',
+      image: ''
+    },
+    {
+      id: 8, 
+      title: 'A Waterproof jacket',
+      description: 'Do not keep a heavy winter coat but rather a simple rain coat as the heavy coat will slow you down making you more susceptible to slower zombies.',
+      image: ''
+    },
+    {
+      id: 9, 
+      title: 'Fire Starter',
+      description: 'Flint and steel, Storm proof matches, Lent or other tinder',
+      image: ''
+    },
+    {
+      id: 10, 
+      title: 'Hand Crank Radio',
+      description: 'Use this to receive important messages that may be circulating',
+      image: ''
+    },
+    {
+      id: 11, 
+      title: 'Satellite Phone',
+      description: 'This allows you to communicate to crew from a distance, Try to find a solar powered one',
+      image: ''
+    },
+    {
+      id: 12, 
+      title: 'Basic Tools',
+      description: 'Most tools can double as weapons, Screwdriver, Small saw, Swiss Army Knife',
+      image: ''
+    },
+    {
+      id: 13, 
+      title: 'Paracord',
+      description: 'This will help in many situations whether to secure loads, tow something behind you, help pull things up various heights',
+      image: ''
+    },
   ]
 }
 
