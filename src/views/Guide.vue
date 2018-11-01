@@ -163,7 +163,6 @@ body {
 .post-view {
   transition: .3s ease 0s;
   width: 100%;
-  min-height: 100vh;
   position: absolute;
   left: 0;
   top: 0;
