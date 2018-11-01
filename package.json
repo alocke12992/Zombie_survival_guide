@@ -3,15 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "material-design-icons-iconfont": "^4.0.2",
     "vue": "^2.5.17",
     "vue-icon": "^2.0.0",
     "vue-router": "^3.0.1",
-    "vue-smart-pagination": "^2.0.8"
+    "vue-smart-pagination": "^2.0.8",
+    "vuetify": "^1.3.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",

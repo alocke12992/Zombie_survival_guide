@@ -38,7 +38,7 @@ export default {
       postIndex: 0,
       selected: true,
       ready: true,
-      lastSelectedPost: null,
+      lastSelectedPost: 0,
       clipPath: data[0].clip_path
     }
   },
@@ -135,8 +135,10 @@ body {
   transform: skew(-20deg);
 }
 .post__title:hover:after {
-  width: 100%;
-  color: red;
+  width: 100%; 
+}
+.post__title:hover{
+  color: #d83c3c;
 }
 .post:last-child {
   margin-bottom: 0;
@@ -233,7 +235,7 @@ body {
 .post-control {
   cursor: pointer;
   font-size: 1.375em;
-  background: #fbf9bd;
+  background: rgba(0, 0, 0, 0.3);
   margin-bottom: 15px;
   height: 40px;
   width: 40px;
@@ -241,6 +243,7 @@ body {
   text-align: center;
   line-height: 43px;
   transition: all .3s ease 0s;
+  color: white
 }
 .post-control:hover {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
@@ -251,7 +254,14 @@ body {
   color: #fff;
 }
 .post-control--close:hover {
-  background: #000;
+  background: #d83c3c;
+}
+
+#next-post:hover {
+  background: black;
+}
+#prev-post:hover {
+  background: black;
 }
 
 @media only screen and (max-width: 991px) {
@@ -263,7 +273,6 @@ body {
     bottom: 10px;
     z-index: 99;
     top: auto;
-    background: rgba(0, 0, 0, 0.7);
     padding: 0 5px;
     justify-content: center;
     margin: auto;
@@ -283,29 +292,6 @@ body {
   .post-view__container {
     padding: 0 30px;
   }
-}
-.logo {
-  cursor: pointer;
-  position: fixed;
-  left: 30px;
-  top: 30px;
-  z-index: 9;
-  width: 50px;
-  height: 50px;
-  transition: .3s ease 0s;
-}
-.logo--absolute {
-  position: absolute;
-}
-.logo--absolute svg {
-  fill: #fbf9bd;
-}
-.logo--active svg {
-  fill: #fff;
-}
-.logo svg {
-  width: 100%;
-  transition: all .3s ease 0s;
 }
 
 </style>
