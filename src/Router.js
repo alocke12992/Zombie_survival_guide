@@ -1,12 +1,12 @@
 import Vue from 'vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router'
 import About from './views/About.vue'
 import Hero from './views/Hero.vue'
 import Guide from './views/Guide.vue'
 
-Vue.use(Router)
+Vue.use(VueRouter)
 
-export default new Router({
+export default new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
@@ -23,7 +23,7 @@ export default new Router({
     {
       path: '/guide',
       name: 'Guide',
-      component: Guide
+      component: Guide,
     },
   ]
 })
