@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class='layoutContainer'>
     <Layout />
   </div>
 </template>
@@ -8,22 +8,14 @@
 import Layout from './layout/index.vue'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    Layout
+    Layout,
   },
+  data () {
+    return {
+      //
+    }
+  }
 }
 </script>
-
-<style>
-body {
-  margin: 0;
-}
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-</style>

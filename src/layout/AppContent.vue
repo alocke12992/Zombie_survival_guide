@@ -5,4 +5,8 @@
 </template>
 
 <style scoped>
+  .content {
+    display: flex;
+    justify-content: center;
+  }
 </style>

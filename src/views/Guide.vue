@@ -158,7 +158,6 @@ export default {
 .post-view {
   transition: .3s ease 0s;
   width: 100%;
-  position: absolute;
   left: 0;
   top: 0;
   display: flex;
@@ -167,8 +166,6 @@ export default {
 }
 
 .post-view__container {
-  position: absolute;
-  top: 100px;
   width: 100%;
   max-width: 900px;
   z-index: 99;
@@ -221,7 +218,7 @@ export default {
   position: fixed;
   right: 20px;
   flex-direction: column;
-  top: 20px;
+  top: 35%;
   display: flex;
 }
 

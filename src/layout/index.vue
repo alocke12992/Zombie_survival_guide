@@ -1,17 +1,12 @@
 
 <template>
   <div class="app-layout">
-    <div v-if="this.$route.path !== '/'">
-      <Navbar />
-      <AppContent/>
-    </div>
-    <div v-else>
-      <Hero />
-    </div>
+      <Navbar v-if="this.$route.path !== '/'" />
+      <AppContent class='appContainer'/>
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import AppContent from './AppContent.vue'
 import Navbar from '../components/Navbar.vue'
 import Hero from '../views/Hero.vue'
@@ -31,5 +26,11 @@ export default {
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+  }
 
 </style>

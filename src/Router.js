@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import About from './views/About.vue'
-import Home from './views/Home.vue'
+import Hero from './views/Hero.vue'
 import Guide from './views/Guide.vue'
 import ShtfBag from './views/ShtfBag.vue'
 
@@ -12,9 +12,9 @@ export default new VueRouter({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/home',
+      path: '/',
       name: 'Home',
-      component: Home
+      component: Hero
     },
     {
       path: '/about',
