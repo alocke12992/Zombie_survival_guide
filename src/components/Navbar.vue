@@ -2,7 +2,7 @@
   <div>
     <nav>
       <div class='logo'>
-        <img src="../assets/ZombieSurvivalGuide.png" alt="zombie guide" />
+        <img :src='logo' alt="zombie guide" />
       </div>
       <div class="divider"></div>
       <div class='navLinks'>
@@ -18,29 +18,31 @@
 </template>
 
 <script>
+import logo from '../assets/ZombieSurvivalGuide.png'
 export default {
   name: 'Navbar',
   data() {
     return {
+      logo: logo,
       links: [
         {
           id: 0,
-          text: 'Home',
+          text: 'HOME',
           page:'/'
         },
         {
           id: 1,
-          text: 'About',
-          page: '/about',
-        },
-        {
-          id: 2,
-          text: 'Guide',
+          text: 'GETTING STARTED',
           page: '/guide'
         },
         {
+          id: 2,
+          text: 'ABOUT',
+          page: '/about',
+        },
+        {
           id: 3,
-          text: 'Bugout Bag',
+          text: 'SHTF BAG',
           page: '/bugoutBag'
         }
       ]

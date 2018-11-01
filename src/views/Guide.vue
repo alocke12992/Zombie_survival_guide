@@ -145,6 +145,7 @@ export default {
     min-height: 100vh;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     padding: 30px 0;
     flex-wrap: wrap;
     align-items: center;

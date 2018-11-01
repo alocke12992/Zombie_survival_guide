@@ -6,11 +6,11 @@
         <h1 class='heroContent'>Survival Guide</h1>
         <h3 class='heroContent subText'>Get Started before it's too late</h3>
       </div>
-      <div class='getStarted'>
-        <router-link to='/guide' class='getStartedLink'>
-          Get Started
-        </router-link>
-      </div>
+        <div class='getStarted'>
+          <router-link to='/guide' class='getStartedLink'>
+            Get Started
+          </router-link>
+        </div>
     </div>
   </div>
 </template>
