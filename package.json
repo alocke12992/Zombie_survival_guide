@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "vue-cli-service serve",
+    "start": "node server.js",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "material-design-icons-iconfont": "^4.0.2",
     "vue": "^2.5.17",
     "vue-icon": "^2.0.0",
