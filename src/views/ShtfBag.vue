@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h1>Shtf Bag</h1>
-  </div>
+    <div class='cardContainer'>
+      <ItemCard v-for='item in items' v-bind:key=' item.id' :props='item'/>
+    </div>
 </template>
 
 <script>
@@ -12,10 +12,19 @@ export default {
   name: 'ShtfBag',
   components: {
     ItemCard
+  },
+  data: function() {
+    return{
+      items: data.items
+    }
   }
 }
 </script>
 
-<style>
-
+<style scoped>
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 </style>

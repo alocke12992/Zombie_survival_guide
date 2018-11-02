@@ -78,7 +78,7 @@ export default {
     width: 70%;
     height: 1px;
     margin: auto;
-	  background: #dddddd;
+    background: #dddddd;
   }
 
   .navLinks {
