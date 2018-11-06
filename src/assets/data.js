@@ -77,79 +77,79 @@ const data =
       id: 1, 
       title: 'First Aid Kit',
       description: 'Various sizes and types of bandages, disinfectant, medical tape, Ibuprofen',
-      image: ''
+      image: 'https://i.pinimg.com/236x/95/35/04/95350480ef992bf544c7f6d2a79afa88.jpg'
     },
     {
       id: 2, 
       title: 'A Small Tent',
       description: 'This will provide a temporary shelter while you search for a more permanent solution',
-      image: ''
+      image: 'https://techflourish.com/images/tent-with-cross-clipart.gif'
     },
     {
       id: 3, 
       title: 'Water',
       description: 'Have 1-2 gallons to help keep you and your crew hydrated until you can find a sustainable source of water',
-      image: ''
+      image: 'https://png2.kisspng.com/20180128/jwq/kisspng-water-bottle-bottled-water-clip-art-vector-pure-water-5a6e7329b511c2.3003511215171878817417.png'
     },
     {
       id: 4, 
       title: 'Nutrition Packs',
       description: 'Have non perishable foods such as canned fruits and vegetables to help sustain you until you have a strong and secure base',
-      image: ''
+      image: 'http://laoblogger.com/images/ration-of-food-clipart-1.jpg'
     },
     {
       id: 5, 
       title: 'Vegetable Seeds',
       description: 'Save these until you have a secure base so you can plant a garden and continually have food, Various Peppers, Black Beans, Squash, Lettuce, Tomatoes, Potatoes',
-      image: ''
+      image: 'https://mbtskoudsalg.com/images/vegetable-clipart-vegetable-seed-9.jpg'
     },
     {
       id: 6, 
       title: 'Melee Weapons',
       description: 'These are a great way of quietly killing zombies and defending yourself from other predators, Bat or knife',
-      image: ''
+      image: 'https://static.vecteezy.com/system/resources/previews/000/097/291/original/zombie-killer-weapon-vector.jpg'
     },
     {
       id: 7, 
       title: 'Emergency Blanket',
       description: 'Great way to keep yourself warm at night',
-      image: ''
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnTN6g6aSLTzmi9k6D1d-OFZ-GQc8kvS2XWdZycWRpoexLKM5DSw'
     },
     {
       id: 8, 
       title: 'A Waterproof jacket',
       description: 'Do not keep a heavy winter coat but rather a simple rain coat as the heavy coat will slow you down making you more susceptible to slower zombies.',
-      image: ''
+      image: 'https://zalarieunique.ru/images/coat-clipart-impermeable-11.jpg'
     },
     {
       id: 9, 
       title: 'Fire Starter',
       description: 'Flint and steel, Storm proof matches, Lent or other tinder',
-      image: ''
+      image: 'https://us.123rf.com/450wm/martialred/martialred1803/martialred180300007/97216888-stock-vector-a-burning-match-with-fire-flame-flat-color-vector-icon-for-apps-and-websites.jpg?ver=6'
     },
     {
       id: 10, 
       title: 'Hand Crank Radio',
       description: 'Use this to receive important messages that may be circulating',
-      image: ''
+      image: 'https://png.clipart.me/previews/26f/radio-clip-art-43883.jpg'
     },
     {
       id: 11, 
       title: 'Satellite Phone',
       description: 'This allows you to communicate to crew from a distance, Try to find a solar powered one',
-      image: ''
+      image: 'https://melbournechapter.net/images/cellphone-clipart-telephone-directory-3.png'
     },
     {
       id: 12, 
       title: 'Basic Tools',
       description: 'Most tools can double as weapons, Screwdriver, Small saw, Swiss Army Knife',
-      image: ''
+      image: 'https://images.all-free-download.com/images/graphiclarge/swiss_army_knife_clip_art_7230.jpg'
     },
     {
       id: 13, 
       title: 'Paracord',
       description: 'This will help in many situations whether to secure loads, tow something behind you, help pull things up various heights',
-      image: ''
+      image: 'https://free.clipartof.com/1715-Free-Clipart-Of-A-Coil-Of-Rope.png'
     },
   ]
 }

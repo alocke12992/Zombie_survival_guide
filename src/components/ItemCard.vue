@@ -7,12 +7,12 @@
         item: {
           title: item.title, 
           description: item.description, 
-          image: img
+          image: item.image
         }
       }
     }">
     <div class='cardImge'>
-      <img :src='img' alt="temp" />
+      <img :src='item.image' alt="temp" />
     </div>
     <div class="cardContent">
       <div class='cardTitle'>{{item.title}}</div>
@@ -22,14 +22,12 @@
 </template>
 
 <script>
-import gear from '../assets/gear.png'
 export default {
   name: 'ItemCard',
   props: ['props'],
   data: function() {
     return{
       item: this.props,
-      img: gear
     }
   }
 }
