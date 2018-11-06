@@ -35,7 +35,8 @@ export default new VueRouter({
     {
       path: '/bugoutBag/:id',
       name: 'Bugout Item',
-      component: ShtfItem
+      component: ShtfItem,
+      props: true
     }
   ]
 })

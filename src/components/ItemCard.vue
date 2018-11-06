@@ -1,12 +1,21 @@
 <template>
   <div class='card'>
-    <router-link :to="{ name: 'Bugout Item', params: {id: item.id } }">
+    <router-link :to="{ 
+      name: 'Bugout Item', 
+      params: {
+        id: item.id, 
+        item: {
+          title: item.title, 
+          description: item.description, 
+          image: img
+        }
+      }
+    }">
     <div class='cardImge'>
       <img :src='img' alt="temp" />
     </div>
     <div class="cardContent">
       <div class='cardTitle'>{{item.title}}</div>
-      <div class='cardDetails'>{{item.description}}</div>
     </div>
     </router-link>
   </div>
@@ -76,6 +85,7 @@ export default {
     box-shadow: none;
     font-size: 1em;
     border-radius: 0;
+    text-align: center;
   }
 
   .cardTitle {
