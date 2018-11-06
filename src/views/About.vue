@@ -1,13 +1,15 @@
 <template>
-  <div>
+  <div class='section'>
     <h1>Works Cited</h1>
-    <ul v-for="item in links" v-bind:key='item.id'>
-      <li>
-        <a :href='item.link' target='_blank'>
-        {{item.link}}
-        </a>
-      </li>
-    </ul>
+    <div class='abtContainer'>
+      <ul v-for="item in links" v-bind:key='item.id'>
+        <li>
+          <a :href='item.link' target='_blank'>
+          {{item.link}}
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -26,5 +28,9 @@ export default {
 <style scoped>
   h1 {
     text-align: center;
+  }
+
+  .abtContainer {
+    height: 100vh;
   }
 </style>

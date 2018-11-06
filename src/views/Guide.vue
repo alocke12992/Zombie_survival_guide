@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class='section'>
     <h1>Guide</h1>
     <div :class="['post-view', selected ? 'post-view--active' : '' , ready ? 'post-view--ready' : '' ]">
       <div class="post-view__container" v-if="selected">
@@ -142,11 +142,9 @@ export default {
   }
 
   .post-list {
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 30px 0;
     flex-wrap: wrap;
     align-items: center;
     position: relative;

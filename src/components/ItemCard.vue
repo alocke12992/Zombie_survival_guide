@@ -1,5 +1,6 @@
 <template>
   <div class='card'>
+    <router-link :to="{ name: 'Bugout Item', params: {id: item.id } }">
     <div class='cardImge'>
       <img :src='img' alt="temp" />
     </div>
@@ -7,6 +8,7 @@
       <div class='cardTitle'>{{item.title}}</div>
       <div class='cardDetails'>{{item.description}}</div>
     </div>
+    </router-link>
   </div>
 </template>
 

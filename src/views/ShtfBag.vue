@@ -1,7 +1,10 @@
 <template>
+  <div class='section'>
+  <h1>Shit-Hit-The-Fan Bag</h1>
     <div class='cardContainer'>
       <ItemCard v-for='item in items' v-bind:key=' item.id' :props='item'/>
     </div>
+  </div>
 </template>
 
 <script>
@@ -22,6 +25,9 @@ export default {
 </script>
 
 <style scoped>
+  h1 {
+      text-align: center;
+  }
   .cardContainer {
     display: flex;
     flex-wrap: wrap;

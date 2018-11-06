@@ -30,7 +30,11 @@ export default {
 
   body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
+    margin: 0
+  }
+
+  .section {
+    margin-top: 50px;
   }
 
 </style>
