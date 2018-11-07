@@ -34,11 +34,11 @@ export default {
       posts: data.pages,
       routes: [],
       currentRouteId: 0,
-      currentPost: data.pages[0],
+      currentPost: null,
       postIndex: 0,
-      selected: true,
-      ready: true,
-      lastSelectedPost: 0,
+      selected: false,
+      ready: false,
+      lastSelectedPost: null,
       clipPath: data.pages[0].clip_path
     }
   },
