@@ -34,6 +34,10 @@ export default {
 </script>
 
 <style scoped>
+  a {
+    margin: auto;
+  }
+  
   img {
     vertical-align: middle;
     max-width: 100%;
