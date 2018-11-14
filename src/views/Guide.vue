@@ -8,8 +8,11 @@
           <div class="post-control" id="next-post" @click="nextPost()"><v-icon name="chevron-right"></v-icon></div>
           <div class="post-control" id="prev-post" @click="prevPost()"><v-icon name="chevron-left"></v-icon></div>
         </div>
-        <h2 class="post-view__title">{{currentPost.title}}</h2>
-        <div class="post-view__content" v-html="currentPost.content"></div>
+        <div class="post-view__content">
+          <h2 class="post-view__title">{{currentPost.title}}</h2>
+          <img class='post-view__image' :src='currentPost.image' :alt='currentPost.title'/>
+          <p>{{currentPost.content}}</p>
+        </div>
       </div>
     </div>
     <div :class="['post-list', selected ? 'post-list--hide' : '']">
@@ -21,14 +24,10 @@
 </template>
 
 <script>
-import Tip from '../components/Tip.vue'
 import data from '../assets/data.js'
 
 export default {
   name: 'Guide',
-  components: {
-    Tip,
-  },
   data: function() {
     return {
       posts: data.pages,
@@ -169,6 +168,9 @@ export default {
   }
 
   .post-view__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
     max-width: 900px;
     z-index: 99;
@@ -182,6 +184,8 @@ export default {
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
     transform: translateY(85px);
     transition: transform .3s ease 0s;
+    display: flex;
+    flex-direction: column;
   }
   .post-view__content p {
     font-size: 1.125em;
@@ -206,7 +210,14 @@ export default {
     margin: 30px 0 15px 0;
     transform: translateY(45px) scaleY(0);
     transition: transform .3s ease-out 0s;
+    text-align: center;
   }
+
+  .post-view__image {
+    height: unset;
+    margin: auto;
+  }
+
   .post-view--ready .post-view__container {
     opacity: 1;
   }
