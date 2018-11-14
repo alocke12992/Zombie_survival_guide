@@ -61,23 +61,23 @@ const data =
   about: [
     {
       id: 1,
+      source: '“13 Essential Tools for Surviving a Zombie Outbreak.” REI Co-Op Journal, REI, 19 Apr. 2018,\nwww.rei.com/blog/social/infographic-13-essential-tools-for-surviving-a-zombie-outbreak.',
       link: 'https://www.rei.com/blog/social/infographic-13-essential-tools-for-surviving-a-zombie-outbreak'
     },
     {
       id: 2,
+      source: '“How To Survive the Zombie Apocalypse - EPIC HOW TO.” YouTube, 22 Oct. 2015, youtu.be/uPx2DT49yMg.',
       link: 'https://youtu.be/uPx2DT49yMg'
     },
     {
       id: 3,
+      source: 'All That\'s Interesting. “How To Survive A Zombie Apocalypse.” All That\'s Interesting, All That\'s Interesting, 12 Feb. 2018, allthatsinteresting.com/survive-zombie-apocalypse.Staff, REI.',
       link: 'https://allthatsinteresting.com/survive-zombie-apocalypse'
     },
     {
       id: 4,
+      source: '“Public Health Matters Blog.” Centers for Disease Control and Prevention, Centers for Disease Control and Prevention, 30 Apr. 2012, blogs.cdc.gov/publichealthmatters/2011/05/preparedness-101-zombie-apocalypse/.',
       link: 'https://blogs.cdc.gov/publichealthmatters/2011/05/preparedness-101-zombie-apocalypse/'
-    },
-    {
-      id: 5,
-      link: 'https://www.amazon.com/Large-Street-Road-Lawrence-Kansas/dp/B002UM80LW'
     },
   ],
   items: [
