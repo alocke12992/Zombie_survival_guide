@@ -18,8 +18,8 @@ export default new VueRouter({
       component: Hero
     },
     {
-      path: '/about',
-      name: 'About',
+      path: '/references',
+      name: 'References',
       component: About
     },
     {

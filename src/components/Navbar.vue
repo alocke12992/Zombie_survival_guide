@@ -37,14 +37,14 @@ export default {
         },
         {
           id: 2,
-          text: 'ABOUT',
-          page: '/about',
+          text: 'SHTF BAG',
+          page: '/bugoutBag'
         },
         {
           id: 3,
-          text: 'SHTF BAG',
-          page: '/bugoutBag'
-        }
+          text: 'REFERENCES',
+          page: '/references',
+        },
       ]
     }
   }

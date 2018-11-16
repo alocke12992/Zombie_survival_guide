@@ -1,6 +1,6 @@
 <template>
   <div class='section'>
-    <h1>Works Cited</h1>
+    <h1>References</h1>
     <div class='abtContainer'>
       <ul>
         <li v-for="item in sources" v-bind:key='item.id'>
