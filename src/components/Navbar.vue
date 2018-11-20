@@ -37,7 +37,7 @@ export default {
         },
         {
           id: 2,
-          text: 'SHTF BAG',
+          text: 'BUGOUT BAG',
           page: '/bugoutBag'
         },
         {

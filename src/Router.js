@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import About from './views/About.vue'
 import Hero from './views/Hero.vue'
 import Guide from './views/Guide.vue'
-import ShtfBag from './views/ShtfBag.vue'
+import BugoutBag from './views/BugoutBag.vue'
 import ShtfItem from './views/ShtfItem.vue'
 
 Vue.use(VueRouter)
@@ -30,7 +30,7 @@ export default new VueRouter({
     {
       path: '/bugoutBag',
       name: 'Bugout Bag',
-      component: ShtfBag,
+      component: BugoutBag,
     },
     {
       path: '/bugoutBag/:id',

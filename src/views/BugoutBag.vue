@@ -1,6 +1,6 @@
 <template>
   <div class='section'>
-  <h1>Shit-Hit-The-Fan Bag</h1>
+  <h1>Bugout Bag</h1>
     <div class='cardContainer'>
       <ItemCard v-for='item in items' v-bind:key=' item.id' :props='item'/>
     </div>
@@ -12,7 +12,7 @@ import data from '../assets/data'
 import ItemCard from '../components/ItemCard.vue'
 
 export default {
-  name: 'ShtfBag',
+  name: 'BugoutBag',
   components: {
     ItemCard
   },
